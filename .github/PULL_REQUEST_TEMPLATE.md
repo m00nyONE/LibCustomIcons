@@ -1,6 +1,6 @@
 ## Changes
 
-- Add new icon for: **@m00nyONE** **@Mobitor** **@seadotarley**
+- Add new icon for: **@m00nyONE** **@Mobitor** **@seadotarley** **@Tenshir**
 
 ## Testing
 
