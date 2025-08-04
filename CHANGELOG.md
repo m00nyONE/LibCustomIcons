@@ -1,4 +1,8 @@
+## 2025.08.04
+- merged HREI by @sshogrin
+
 ## 2025.08.02
+- merged Piou Icons by @TenshiRaitoEso
 - HasIcon bugfix by @WashedNotSloshed
 - unify API
 - fix some icons that went missing during migration
