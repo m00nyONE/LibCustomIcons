@@ -217,4 +217,6 @@ s["@PoeticEevee"] = "LibCustomIcons/icons/misc7/PoeticEevee.dds"
 s["@Hersher"] = "LibCustomIcons/icons/misc7/Hersher.dds"
 s["@Sir_Karli"] = "LibCustomIcons/icons/misc7/Sir_Karli.dds"
 a["@Sir_Karli"] = {"LibCustomIcons/icons/misc7/Sir_Karli_anim.dds", 10, 1, 30}
+s["@Lezwin"] = "LibCustomIcons/icons/misc7/Lezwin.dds"
+a["@Lezwin"] = {"LibCustomIcons/icons/misc7/Lezwin_anim.dds", 7, 7, 20}
 a["@Hersher"] = {"LibCustomIcons/icons/misc7/Hersher_anim.dds", 5, 1, 20}
