@@ -7,6 +7,7 @@ local a = lib.GetAnimatedTable()
 -- a["@NAME"] = {"PATH_TO_ANIMATION(sprite)", NUM_OF_FRAMES_X, NUM_OF_FRAMES_Y, FRAMES_PER_SECONDS}
 
 s["@sshogrin"] = "LibCustomIcons/icons/sshogrin/sshogrin.dds"
+a["@sshogrin"] = {"LibCustomIcons/icons/sshogrin/sshogrinrotate161.dds", 16, 1, 24}
 s["@barcabeagle"] = "LibCustomIcons/icons/sshogrin/barca.dds"
 s["@Kestrel.kat"] = "LibCustomIcons/icons/sshogrin/kestrel.dds"
 s["@HeadsUpCanuck"] = "LibCustomIcons/icons/sshogrin/canuck.dds"
@@ -53,3 +54,5 @@ s["@Kymlee"] = "LibCustomIcons/icons/sshogrin/Penguin32.dds"
 s["@butteredTOA5T"] = "LibCustomIcons/icons/sshogrin/Toast.dds"
 s["@SquirrelyWrath"] = "LibCustomIcons/icons/sshogrin/Squirrely.dds"
 s["@djeRNATC"] = "LibCustomIcons/icons/sshogrin/Cadueces.dds"
+s["@Evildeadgirl"] = "LibCustomIcons/icons/sshogrin/Lokia.dds"
+s["@Yosemite_SLAM"] = "LibCustomIcons/icons/sshogrin/Gladwyn.dds"
