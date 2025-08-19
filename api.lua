@@ -3,15 +3,6 @@ local lib = _G[lib_name]
 local s = lib.GetStaticTable()
 local a = lib.GetAnimatedTable()
 
---- function that creates a deep copy of a table
-local function clone(t)
-    local copy = {}
-    for k, v in pairs(t) do
-        copy[k] = v
-    end
-    return copy
-end
-
 --[[ doc.lua begin ]]
 
 --- Checks whether a static icon exists for the given username.
@@ -69,7 +60,7 @@ local cachedAnimatedIconsTableClone = nil
 --- @return table<string,string> staticTable mapping `@accountname` to `texturePath` for all static icons
 function lib.GetAllStatic()
     if not cachedStaticIconsTableClone then
-        cachedStaticIconsTableClone = clone(s)
+        cachedStaticIconsTableClone = ZO_DeepTableCopy(s)
     end
     return cachedStaticIconsTableClone
 end
@@ -79,7 +70,7 @@ end
 --- @return table<string,table> animTable mapping `@accountname` to `{texturePath, width, height, fps}` for all animated icons
 function lib.GetAllAnimated()
     if not cachedAnimatedIconsTableClone then
-        cachedAnimatedIconsTableClone = clone(a)
+        cachedAnimatedIconsTableClone = ZO_DeepTableCopy(a)
     end
     return cachedAnimatedIconsTableClone
 end
