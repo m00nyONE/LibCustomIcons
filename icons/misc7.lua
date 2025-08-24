@@ -232,4 +232,6 @@ s["@zeusxwilson"] = "LibCustomIcons/icons/misc7/zeusxwilson.dds"
 a["@zeusxwilson"] = {"LibCustomIcons/icons/misc7/zeusxwilson_anim.dds", 25, 2, 16}
 s["@Bezlickiy"] = "LibCustomIcons/icons/misc7/Bezlickiy.dds"
 a["@Bezlickiy"] = {"LibCustomIcons/icons/misc7/Bezlickiy_anim.dds", 15, 1, 19}
+s["@Nay'rya"] = "LibCustomIcons/icons/misc7/Nayrya.dds"
+s["@artemisbows"] = "LibCustomIcons/icons/misc7/artemisbows.dds"
 s["@Hastriv"] = "LibCustomIcons/icons/misc7/hastriv.dds"
