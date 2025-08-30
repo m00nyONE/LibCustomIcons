@@ -240,4 +240,6 @@ a["@maico09"] = {"LibCustomIcons/icons/misc7/maico09_anim.dds", 34, 1, 10}
 a["@kalormano"] = {"LibCustomIcons/icons/misc7/kalormano_anim.dds", 11, 1, 10}
 s["@Noble-Bear"] = "LibCustomIcons/icons/misc7/Noble-Bear.dds"
 s["@Parrales"] = "LibCustomIcons/icons/misc7/parrales.dds"
+s["@Levin788"] = "LibCustomIcons/icons/misc7/Levin788.dds"
+a["@Levin788"] = {"LibCustomIcons/icons/misc7/Levin788_anim.dds", 17, 2, 10}
 s["@Nathkim"] = "LibCustomIcons/icons/misc7/deadpool-logo-128.dds"
