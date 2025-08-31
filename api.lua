@@ -109,7 +109,7 @@ end
 --- @return number count The total number of icons
 function lib.GetIconCount()
     if cachedTotalIconCount == 0 then
-        cachedTotalIconCount = lib.GetStaticIconCount() + lib.GetAnimatedIconCount()
+        cachedTotalIconCount = lib.GetStaticCount() + lib.GetAnimatedCount()
     end
     return cachedTotalIconCount
 end
