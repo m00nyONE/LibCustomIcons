@@ -33,5 +33,5 @@ a["@zqNqz"] = {"LibCustomIcons/icons/Piou/Nqz_anim.dds", 16, 1, 10}
 a["@Nyo-Rdn"] = {"LibCustomIcons/icons/Piou/Nyo_anim.dds", 52, 1, 15}
 a["@Chelgoumy"] = {"LibCustomIcons/icons/Piou/Chelgou_anim.dds", 12, 1, 5}
 a["@KOZYMEISTER"] = {"LibCustomIcons/icons/Piou/Koz_anim.dds", 16, 1, 15}
-a["@DryxrPK"] = {"LibCustomIcons/icons/Piou/Dus_anim.dds", 6, 1, 10}
+a["@renuil"] = {"LibCustomIcons/icons/Piou/Dus_anim.dds", 6, 1, 10}
 a["@StyIish"] = {"LibCustomIcons/icons/Piou/Sty_anim.dds", 11, 1, 5}
