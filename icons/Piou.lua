@@ -1,4 +1,4 @@
-local lib_name = "LibCustomIcons"
+ilocal lib_name = "LibCustomIcons"
 local lib = _G[lib_name]
 local s = lib.GetStaticTable()
 local a = lib.GetAnimatedTable()
@@ -19,7 +19,7 @@ s["@Odin76"] = "LibCustomIcons/icons/Piou/Odin.dds"
 s["@Nyo-Rdn"] = "LibCustomIcons/icons/Piou/Nyo.dds"
 s["@Chelgoumy"] = "LibCustomIcons/icons/Piou/Chelgou.dds"
 s["@KOZYMEISTER"] = "LibCustomIcons/icons/Piou/Koz.dds"
-s["@DryxrPK"] = "LibCustomIcons/icons/Piou/Dus.dds"
+s["@reunil"] = "LibCustomIcons/icons/Piou/Dus.dds"
 s["@StyIish"] = "LibCustomIcons/icons/Piou/Sty.dds"
 s["@Kinseht"]= "LibCustomIcons/icons/Piou/Kin.dds"
 s["@Fondianist"] = "LibCustomIcons/icons/Piou/Fon.dds"
