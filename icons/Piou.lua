@@ -1,4 +1,4 @@
-ilocal lib_name = "LibCustomIcons"
+local lib_name = "LibCustomIcons"
 local lib = _G[lib_name]
 local s = lib.GetStaticTable()
 local a = lib.GetAnimatedTable()
