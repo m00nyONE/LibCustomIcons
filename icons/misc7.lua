@@ -258,3 +258,5 @@ s["@Oshin3"] = "LibCustomIcons/icons/misc7/Oshin3.dds"
 s["@pkstar12"] = "LibCustomIcons/icons/misc7/pkstar12.dds"
 s["@DrewUout1"] = "LibCustomIcons/icons/misc7/DrewUout1.dds"
 a["@DrewUout1"] = {"LibCustomIcons/icons/misc7/DrewUout1_anim.dds", 5, 6, 10}
+s["@Trimphus"] = "LibCustomIcons/icons/misc7/Trimphus.dds"
+a["@Trimphus"] = {"LibCustomIcons/icons/misc7/Trimphus_anim.dds", 19, 2, 14}
