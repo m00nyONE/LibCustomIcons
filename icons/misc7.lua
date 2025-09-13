@@ -260,3 +260,5 @@ s["@DrewUout1"] = "LibCustomIcons/icons/misc7/DrewUout1.dds"
 a["@DrewUout1"] = {"LibCustomIcons/icons/misc7/DrewUout1_anim.dds", 5, 6, 10}
 s["@Trimphus"] = "LibCustomIcons/icons/misc7/Trimphus.dds"
 a["@Trimphus"] = {"LibCustomIcons/icons/misc7/Trimphus_anim.dds", 19, 2, 14}
+s["@PomQc"] = "LibCustomIcons/icons/misc7/PomQc.dds"
+s["@TianRan1"] = "LibCustomIcons/icons/misc7/TianRan1.dds"
