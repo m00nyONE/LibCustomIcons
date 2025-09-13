@@ -486,6 +486,7 @@ s["@Raspberry41"] = "LibCustomIcons/icons/misc6/Raspberry41.dds"
 s["@ChrisaSweetfoxy"] = "LibCustomIcons/icons/misc6/ChrisaSweetfoxy.dds"
 s["@I'm-A_Femboy"] = "LibCustomIcons/icons/misc6/Im-A_Femboy.dds"
 s["@haze068"] = "LibCustomIcons/icons/misc6/haze068.dds"
+a["@haze068"] = {"LibCustomIcons/icons/misc6/haze068_anim.dds", 24, 1, 15}
 s["@Dark.Anima"] = "LibCustomIcons/icons/misc6/Dark.Anima.dds"
 s["@twopups"] = "LibCustomIcons/icons/misc6/twopups.dds"
 s["@TenshiESO"] = "LibCustomIcons/icons/misc6/TenshiESO.dds"
