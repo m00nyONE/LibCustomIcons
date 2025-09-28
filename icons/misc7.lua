@@ -110,7 +110,6 @@ a["@EchoWFlechazo"] = {"LibCustomIcons/icons/misc7/EchoWFlechazo_anim.dds", 10, 
 a["@VerifiedToy"] = {"LibCustomIcons/icons/misc7/VerifiedToy_anim.dds", 5, 2, 9}
 a["@Haikyuu_929"] = {"LibCustomIcons/icons/misc7/Haikyuu_929_anim.dds", 32, 1, 17}
 s["@iiTzChriss"] = "LibCustomIcons/icons/misc7/iiTzChriss.dds"
-a["@iiTzChriss"] = {"LibCustomIcons/icons/misc7/iiTzChriss_anim.dds", 5, 2, 17}
 a["@Exosq"] = {"LibCustomIcons/icons/misc7/Exosq_anim.dds", 9, 2, 9}
 a["@Mizeov"] = {"LibCustomIcons/icons/misc7/Mizeov_anim.dds", 7, 6, 13}
 a["@zuxyq"] = {"LibCustomIcons/icons/misc7/zuxyq_anim.dds", 6, 1, 20}
