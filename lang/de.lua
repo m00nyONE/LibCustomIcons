@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: 2025 m00nyONE
+-- SPDX-License-Identifier: Artistic-2.0
+
 local strings = {
     LCI_MENU = "LibCustomIcons",
     LCI_MENU_HEADER = "mein benutzerdefiniertes Icon",
