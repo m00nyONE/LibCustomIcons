@@ -3,10 +3,10 @@
 
 ## Title: LibCustomIcons
 ## Description: a library for custom player icons
-## Version: dev
+## Version: 2025-10-05
 ## Author: |c76c3f4@m00nyONE|r, |cef7682@seadotarley|r
 ## APIVersion: 101046 101047
-## AddOnVersion: 99999999
+## AddOnVersion: 20251005
 ## SavedVariables: LibCustomIconsSV
 ## IsLibrary: true
 ## DependsOn: LibAddonMenu-2.0>=40
@@ -32,6 +32,7 @@ integrity.lua
 
 ## icons
 icons/animated.lua
+icons/cd.lua
 icons/cfm.lua
 icons/chainreaction.lua
 icons/corsair.lua
