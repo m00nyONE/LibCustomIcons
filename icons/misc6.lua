@@ -7,6 +7,7 @@ local s = lib.GetStaticTable()
 local a = lib.GetAnimatedTable()
 
 s["@GodSoma"] = "LibCustomIcons/icons/misc6/GodSoma.dds"
+s["@FindingChemo"] = "LibCustomIcons/icons/misc6/FindingChemo.dds"
 s["@zeegoddess"] = "LibCustomIcons/icons/misc6/zeegoddess.dds"
 s["@Kingcyo"] = "LibCustomIcons/icons/misc6/Kingcyo.dds"
 s["@stoleyoursweetroll42"] = "LibCustomIcons/icons/misc6/stoleyoursweetroll42.dds"
