@@ -286,3 +286,7 @@ s["@ItsBigKai"] = "LibCustomIcons/icons/misc7/ItsBigKai.dds"
 s["@ReviaAndersson"] = "LibCustomIcons/icons/misc7/ReviaAndersson.dds"
 s["@KikiMu"] = "LibCustomIcons/icons/misc7/KikiMu.dds"
 s["@CrazyFr00g"] = "LibCustomIcons/icons/misc7/CrazyFr00g.dds"
+s["@Grovkarln"] = "LibCustomIcons/icons/misc7/Grovkarln.dds"
+a["@Grovkarln"] = {"LibCustomIcons/icons/misc7/Grovkarln_anim.dds", 19, 2, 13}
+s["@coatsncheeze"] = "LibCustomIcons/icons/misc7/coatsncheeze.dds"
+a["@coatsncheeze"] = {"LibCustomIcons/icons/misc7/coatsncheeze_anim.dds", 19, 2, 15}
