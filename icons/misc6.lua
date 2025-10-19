@@ -50,6 +50,7 @@ s["@Majima323"] = "LibCustomIcons/icons/misc6/Majima323_2.dds"
 s["@PaybackFFS"] = "LibCustomIcons/icons/misc6/PaybackFFS.dds"
 s["@silentseashore"] = "LibCustomIcons/icons/misc6/silentseashore.dds"
 s["@Banana.Fish"] = "LibCustomIcons/icons/misc6/Banana.Fish.dds"
+s["@Banana.Jelly"] = s["@Banana.Fish"]
 s["@Chomper876"] = "LibCustomIcons/icons/misc6/Chomper876_2.dds"
 s["@OrjanOls"] = "LibCustomIcons/icons/misc6/OrjanOls.dds"
 s["@RGinty"] = "LibCustomIcons/icons/misc6/RGinty.dds"
