@@ -7,7 +7,6 @@ local lib_author = lib.author
 local lib_version = lib.version
 
 -- needs to be changed if we create a new folder for icons - usually after a folder reaches 1k icons or the year has changed
-local currentFolder = "misc7"
 local sv = {}
 local svVersion = 1
 local svDefaults = {
@@ -41,10 +40,10 @@ local function getOptions()
     end
 
     local _generateStaticCode = function(displayName)
-        return strfmt('s["%s"] = "LibCustomIcons/icons/%s/%s.dds"', displayName, currentFolder, _escapeName(displayName))
+        return strfmt('s["%s"] = "LibCustomIcons/icons/%s/%s.dds"', displayName, lib.GetCurrentFolder(), _escapeName(displayName))
     end
     local _generateAnimatedCode = function(displayName)
-        return strfmt('a["%s"] = {"LibCustomIcons/icons/%s/%s_anim.dds", 0, 0, 0}', displayName, currentFolder, _escapeName(displayName))
+        return strfmt('a["%s"] = {"LibCustomIcons/icons/%s/%s_anim.dds", 0, 0, 0}', displayName, lib.GetCurrentFolder(), _escapeName(displayName))
     end
 
     local _generateCode = function()

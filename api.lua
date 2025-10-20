@@ -7,6 +7,13 @@ local s = lib.GetStaticTable()
 local a = lib.GetAnimatedTable()
 
 --[[ doc.lua begin ]]
+local currentFolder = "misc" .. tostring(os.date("%Y") - 2018)
+
+--- Retrieves the current folder where the icons are stored.
+--- @return string folder The current folder name
+function lib.GetCurrentFolder()
+    return currentFolder
+end
 
 --- Checks whether a static icon exists for the given username.
 --- @param username string The player's account name (e.g., "@m00nyONE").
