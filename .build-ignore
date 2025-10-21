@@ -2,6 +2,7 @@
 .github
 .gitignore
 .build-ignore
+.venv
 README_ESOUI.txt
 docs-lua
 docs-md
