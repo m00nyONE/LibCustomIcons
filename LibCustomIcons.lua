@@ -7,6 +7,7 @@ local lib = {
     name = "LibCustomIcons",
     version = "dev",
     author = "@m00nyONE",
+    compiled = false, -- TODO: needs to be set by pipeline
 }
 
 local lib_name = lib.name

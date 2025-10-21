@@ -125,3 +125,6 @@ function lib.GetIconCount()
 end
 
 --[[ doc.lua end ]]
+
+-- TODO: if lib.compiled then ... end
+-- change functions to correctly calculate texture coordinates for static and animated icons
