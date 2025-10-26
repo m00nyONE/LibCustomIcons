@@ -296,3 +296,4 @@ a["@coatsncheeze"] = {"LibCustomIcons/icons/misc7/coatsncheeze_anim.dds", 19, 2,
 s["@Esstarossa"] = "LibCustomIcons/icons/misc7/Esstarossa.dds"
 s["@SteveIrwin_ESO"] = "LibCustomIcons/icons/misc7/SteveIrwin.dds"
 a["@Rilarra"] = {"LibCustomIcons/icons/misc7/Rilarra_anim.dds", 10, 5, 10}
+s["@Max.kvy"] = "LibCustomIcons/icons/misc7/Maxkvy.dds"
