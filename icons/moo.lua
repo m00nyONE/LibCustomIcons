@@ -90,6 +90,7 @@ a["@NikG1"] = {"LibCustomIcons/icons/moo/NikG1_anim.dds", 10, 5, 16}
 s["@Drachilo"] = "LibCustomIcons/icons/moo/Drachilo_2.dds"
 s["@Dolgubon"] = "LibCustomIcons/icons/moo/Dolgubon.dds"
 a["@Ermsi"] = {"LibCustomIcons/icons/moo/Ermsi_anim.dds", 14, 1, 20}
+a["@RayRegiCide"] = {"LibCustomIcons/icons/moo/RayRegiCide_anim.dds", 9, 4, 11}
 a["@schm00nel"] = a["@m00nyONE"]
 s["@schm00nel"] = s["@m00nyONE"]
 a["@C.arley"] = a["@seadotarley"]

@@ -819,7 +819,6 @@ a["@RaveN_92"] = {"LibCustomIcons/icons/misc3/RaveN_92_anim_2.dds", 6, 4, 8}
 a["@vexietexie"] = {"LibCustomIcons/icons/misc3/vexietexie_anim.dds", 8, 6, 13}
 a["@Glazing"] = {"LibCustomIcons/icons/misc3/Glazing_anim.dds", 10, 1, 10}
 a["@Kiyari"] = {"LibCustomIcons/icons/misc3/Pull_anim.dds", 14, 1, 13}
-a["@RayRegiCide"] = {"LibCustomIcons/icons/misc3/RayRegiCide_anim.dds", 9, 4, 11}
 a["@McLadrones"] = {"LibCustomIcons/icons/misc3/matheuzynhow_anim.dds", 37, 1, 15}
 a["@drunkieowl"] = {"LibCustomIcons/icons/misc3/drunkieowl_anim.dds", 12, 1, 6}
 a["@VAI'REN"] = {"LibCustomIcons/icons/misc3/vairen_anim.dds", 10, 5, 20}
