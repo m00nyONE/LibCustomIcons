@@ -3,7 +3,7 @@ import re
 import math
 import os
 
-
+os.chdir('icons')
 ls = os.listdir()
 
 #print(ls)

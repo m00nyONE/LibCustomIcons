@@ -53,3 +53,39 @@ jobs:
           python3 .github/scripts/release/mergeIcons.py
 
 
+      - name: Create ZIP archive
+        run: |
+          REPO_FOLDER=$(pwd)
+          TMP_FOLDER="/tmp/${{ env.ADDON_NAME }}"
+          
+          # Define the path to the ignore pattern file
+          ignore_file=".build-ignore"
+          
+          # Read and process ignore patterns into a single line
+          exclude_patterns=$(cat "$ignore_file" | awk '{print "--exclude " $0}' | tr '\n' ' ')
+          
+          # Make folder and copy content
+          mkdir -p $TMP_FOLDER
+          rsync -a --quiet $exclude_patterns "$REPO_FOLDER/" "$TMP_FOLDER/"
+          
+          # create zip
+          (cd /tmp && zip -r --quiet "$REPO_FOLDER/${{ env.ZIP_FULL_NAME }}" "${{ env.ADDON_NAME }}")
+
+      - name: Extract latest changelog entry
+        run: |
+          awk '/^## / { if (!found) { found=1; print; next } else { exit } } found' CHANGELOG.md > latest_changes.md
+          cat latest_changes.md
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          name: "${{ env.ADDON_VERSION }}"
+          commit: ${{ github.ref }}
+          tag: "${{ env.ADDON_VERSION }}"
+          artifacts: "${{ env.ZIP_FULL_NAME }}"
+          artifactContentType: application/zip
+          bodyFile: latest_changes.md
+          allowUpdates: true
+          makeLatest: true
+          prerelease: true
+          updateOnlyUnreleased: true
