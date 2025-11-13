@@ -39,6 +39,10 @@ end
 --- @param username string The player's account name (e.g., "@m00nyONE").
 --- @return string|nil texturePath or `nil` if no static icon exists
 function lib.GetStatic(username)
+    if type(s[username]) == "table" then
+        local texture, left, right, top, bottom, width, height = unpack(s[username])
+        return texture, left/width, right/width, top/height, bottom/height
+    end
     return s[username]
 end
 --- Retrieves the texturePath and animation parameters of the animated icon for the user or nil if none exists.
@@ -55,8 +59,8 @@ function lib.GetIcon(username)
     local anim = lib.GetAnimated(username)
     if anim then return anim end
 
-    local static = lib.GetStatic(username)
-    if static then return static end
+    local static, l, r, t, b = lib.GetStatic(username)
+    if static then return static, l, r, t, b end
 
     return nil
 end
