@@ -320,3 +320,4 @@ s["@TheElusiveBread"] = "LibCustomIcons/icons/misc7/TheElusiveBread.dds"
 a["@TheElusiveBread"] = {"LibCustomIcons/icons/misc7/TheElusiveBread_anim.dds", 9, 2, 9}
 s["@M.Berlingot"] = "LibCustomIcons/icons/misc7/MBerlingot.dds"
 s["@Painkileuse"] = "LibCustomIcons/icons/misc7/Painkileuse.dds"
+a["@iiTzChriss"] = {"LibCustomIcons/icons/misc7/iiTzChriss_anim.dds", 10, 5, 20}
