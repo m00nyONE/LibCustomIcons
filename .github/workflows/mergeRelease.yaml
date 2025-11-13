@@ -1,6 +1,7 @@
 name: Merge Release
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*.*.*"
@@ -45,7 +46,7 @@ jobs:
       - name: Setup Merge
         run: |
           sudo apt install libmagickwand-dev
-          sudo apt install python-wand
+          pip3 install Wand
 
       - name: Merge Icons
         run: |
