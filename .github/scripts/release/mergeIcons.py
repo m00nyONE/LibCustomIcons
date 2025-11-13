@@ -6,26 +6,22 @@ import os
 os.chdir('icons')
 ls = os.listdir()
 
-#print(ls)
 folders = []
 for items in ls:
 	if items[-4:] == ".lua":
 		folders.append(items[:-4])
 
-#print(folders)
 
 lookup = {}
 
 for folder in folders:
-	#regex = rf's\[.*?\].*?\"LibCustomIcons\/icons\/{folder}\/(.*?)\"' # only get statics
-	regex = rf's\[.*?\].*?=(?!.*?{{).*?\"LibCustomIcons/icons/{folder}/([^\"]+)\"'
-	#print(regex)
+	regex = rf's\[.*?\].*?=(?!.*?{{).*?\"LibCustomIcons/icons/{folder}/([^\"]+)\"' # only get statics
 	print("Current folder: " + folder)
 	images = []
 
 	foldersFoundIn = []
 
-	for cFolder in folders:
+	for cFolder in folders: ### Find all Static Icons which are in the current folder we are looking at ###
 		with open(f"{cFolder}.lua", "r") as fil:
 			content = fil.read()
 			images += re.findall(regex, content)
@@ -33,11 +29,8 @@ for folder in folders:
 				foldersFoundIn.append(cFolder)
 
 
-	#print(f"Length was {len(images)}")
-	images = list(dict.fromkeys(images))
-	#print(f"New length is {len(images)}")
+	images = list(dict.fromkeys(images)) # remove dupes
 
-	#return
 	numImages = len(images)
 	if numImages != 0:
 
@@ -46,37 +39,25 @@ for folder in folders:
 
 		print(f"Making an image with a dim of {columns}x{rows} for folder {folder}")
 
-		#lookup[folder] = images
 		if len(foldersFoundIn) > 1:
 			print("Found in folders: " + ', '.join(foldersFoundIn))
 
-		with Image(background=None) as img:
+		with Image(background=None) as img: ### Merge all images in the folder, and save ###
 			for src in images:
 				with Image(width=32, height=32, pseudo=f"{folder}/{src}") as item:
 					item.border_color = 'none'   # Inner Frame
 					item.matte_color = 'none'  # Outer Frame
-					#item.save(filename='test.png')
-					#display(item)
 					item.background_color = "none"
 					item.resize(32,32)
 					img.image_add(item)
-			#print(img.alpha_channel)
-			#img.concat()
 			img.background_color = "none"
 			img.montage(mode='concatenate', tile=f'{columns}x{rows}')
-			#img.background = None
-
-			#img.save(filename='montage-concatenate.png')
 			img.compression = "dxt5"
 			img.background_color = "none"
 			img.format = "dds"
-			#img.format = "png"
-			#img.border('magenta', 2, 2)
 			img.save(filename=f'{folder}/merged.dds')
-			#display(img)
 
-			# montage *.dds -geometry 32x32+0+0 -define dds:compression=dxt5 -define dds:mipmaps=0 -background none merged.dds
-		for cFolder in folders:
+		for cFolder in folders: ### Look through all lua files and replace their values with the new merged + top bottom left right width height table ###
 			with open(f"{cFolder}.lua", "r+") as fil:
 				content = fil.read()
 				for i in range(len(images)):
@@ -91,33 +72,13 @@ for folder in folders:
 				fil.seek(0)
 				fil.write(content)
 				fil.truncate()
-			#print(x) 
-			#print(content)
 
 
 		print("")
 		
 		
-		for path in images:
+		for path in images: ### Delete old images ###
 			if os.path.exists(f"{folder}/{path}"):
 				os.remove(f"{folder}/{path}")
 			else:
 				print(f"{folder}/{path} does not exist") 
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
