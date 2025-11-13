@@ -1,8 +1,9 @@
 name: Merge Release
 
 on:
-  workflow_dispatch:
-    inputs:
+  push:
+    tags:
+      - "v*.*.*"
 
 jobs:
   release:
@@ -50,4 +51,4 @@ jobs:
         run: |
           python3 .github/scripts/release/mergeIcons.py
 
-      
+
