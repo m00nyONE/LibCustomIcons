@@ -81,7 +81,7 @@ jobs:
         with:
           name: "${{ env.ADDON_VERSION }}"
           commit: ${{ github.ref }}
-          tag: "${{ env.ADDON_VERSION }}"
+          # tag: "${{ env.ADDON_VERSION }}"
           artifacts: "${{ env.ZIP_FULL_NAME }}"
           artifactContentType: application/zip
           bodyFile: latest_changes.md
