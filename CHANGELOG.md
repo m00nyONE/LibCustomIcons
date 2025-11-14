@@ -1,3 +1,7 @@
+## 2025.11.24
+- static icons are now compressed into a single file per folder to make updating faster
+- some out of order icons got resized
+
 ## 2025.08.16
 - merge even more contributions
 

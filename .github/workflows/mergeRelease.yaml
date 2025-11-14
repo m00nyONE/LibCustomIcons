@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - mergeIcons
+      - feature/mergeIcons
 
 
 jobs:
@@ -80,9 +80,9 @@ jobs:
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
         with:
-          name: "${{ env.ADDON_VERSION }}"
+          name: "${{ env.ADDON_VERSION }}-merge-test"
           commit: ${{ github.ref }}
-          tag: "${{ env.ADDON_VERSION }}"
+          tag: "${{ env.ADDON_VERSION }}-merge-test"
           artifacts: "${{ env.ZIP_FULL_NAME }}"
           artifactContentType: application/zip
           bodyFile: latest_changes.md

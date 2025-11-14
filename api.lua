@@ -37,32 +37,19 @@ end
 
 --- Retrieves the texturePath of the static icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return string|nil texturePath or `nil` if no static icon exists
+--- @return string|nil, number, number, number, number texturePath or `nil` if no static icon exists, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom
 function lib.GetStatic(username)
     if type(s[username]) == "table" then
         local texture, left, right, top, bottom, width, height = unpack(s[username])
         return texture, left/width, right/width, top/height, bottom/height
     end
-    return s[username]
+    return s[username], 0, 1, 0, 1
 end
 --- Retrieves the texturePath and animation parameters of the animated icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
 --- @return table animation `{texturePath, width, height, fps}` or `nil` if no animated icon exists
 function lib.GetAnimated(username)
     return a[username]
-end
-
---- Retrieves the texturePath and animation parameters of the animated icon for the user if it exists or the texturePath of the static icon for the user or nil if none exists.
---- @param username string The player's account name (e.g., "@m00nyONE").
---- @return table|string animation `{texturePath, width, height, fps}` or `texturePath` or `nil` if no static icon exists
-function lib.GetIcon(username)
-    local anim = lib.GetAnimated(username)
-    if anim then return anim end
-
-    local static, l, r, t, b = lib.GetStatic(username)
-    if static then return static, l, r, t, b end
-
-    return nil
 end
 
 -- cached Clones of the internal tables for the GetAll* function. As these tables should always be readOnly and do nothing if edited, there is no need for them to be cloned each time they're requested

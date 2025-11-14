@@ -48,7 +48,7 @@ LibCustomIcons.lua: Core logic to retrieve and manage custom icons.
 Community contributions are welcome and appreciated!
 
 - Fork the repo
-- Add your custom icon to the data file
+- Add your custom icon to the data file. Do NOT work with the compiled version!
 - Open a Pull Request with a short description
 - Make sure to keep icons appropriate and tasteful. Offensive or misleading content will not be accepted.
 
