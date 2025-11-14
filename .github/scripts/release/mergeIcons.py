@@ -55,7 +55,7 @@ for folder in folders:
 			img.compression = "dxt5"
 			img.background_color = "none"
 			img.format = "dds"
-			img.save(filename=f'{folder}/merged.dds')
+			img.save(filename=f'compiled/merged_{folder}.dds')
 
 		for cFolder in folders: ### Look through all lua files and replace their values with the new merged + top bottom left right width height table ###
 			with open(f"{cFolder}.lua", "r+") as fil:
@@ -65,7 +65,7 @@ for folder in folders:
 					column = i%columns
 					row = math.floor(i/columns)
 					newregex = rf'(s\[.*?\].*?)(\"LibCustomIcons\/icons\/{folder}\/{imagePath}\")'
-					newstring = rf'\g<1>{{"LibCustomIcons/icons/{folder}/merged.dds", {column*32}, {(column*32)+31}, {row*32}, {(row*32)+31}, {columns*32-1}, {rows*32-1}}}'
+					newstring = rf'\g<1>{{"LibCustomIcons/icons/compiled/merged_{folder}.dds", {column*32}, {(column*32)+31}, {row*32}, {(row*32)+31}, {columns*32-1}, {rows*32-1}}}'
 					(content,amnt) = re.subn(newregex, newstring, content)
 					if amnt > 1:
 						print(f"{folder}/{imagePath} was duplicated {amnt} times in folder {cFolder}")
@@ -76,9 +76,8 @@ for folder in folders:
 
 		print("")
 		
-		
 		for path in images: ### Delete old images ###
 			if os.path.exists(f"{folder}/{path}"):
 				os.remove(f"{folder}/{path}")
 			else:
-				print(f"{folder}/{path} does not exist") 
+				print(f"{folder}/{path} does not exist")
