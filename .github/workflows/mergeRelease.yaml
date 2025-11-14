@@ -1,0 +1,92 @@
+name: Merge Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - mergeIcons
+
+
+jobs:
+  release:
+    name: "merge release"
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: get repo name
+        run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+
+      - name: Get current year, month and day
+        run: |
+          echo "BUILD_DATE_YEAR=$(date -u +'%Y')" >> $GITHUB_ENV
+          echo "BUILD_DATE_MONTH=$(date -u +'%m')" >> $GITHUB_ENV
+          echo "BUILD_DATE_DAY=$(date -u +'%d')" >> $GITHUB_ENV
+          echo "BUILD_DATE_NUMBER=$(date +'%Y%m%d')" >> $GITHUB_ENV
+          echo "BUILD_DATE_WITH_DOT=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
+          echo "BUILD_DATE_WITH_HYPHEN=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Create env variables
+        run: |
+          addon_name="${{ env.REPO_NAME }}"
+          version="${{ env.BUILD_DATE_WITH_HYPHEN }}-dev"
+          
+          echo "ADDON_NAME=$addon_name" >> $GITHUB_ENV
+          echo "ADDON_VERSION=$version" >> $GITHUB_ENV
+          
+          echo "ZIP_FULL_NAME=${addon_name}-${version}.zip" >> $GITHUB_ENV
+
+      - name: Replace placeholders with current date
+        run: |
+          sed -i "s/version = \"dev\"/version = \"${{ env.ADDON_VERSION }}\"/g" ${{ env.ADDON_NAME }}.lua
+          sed -i "s/## Version: dev/## Version: ${{ env.ADDON_VERSION }}/g" ${{ env.ADDON_NAME }}.addon
+          sed -i "s/## AddOnVersion: 99999999/## AddOnVersion: ${{ env.BUILD_DATE_NUMBER }}/g" ${{ env.ADDON_NAME }}.addon
+
+      - name: Setup Merge
+        run: |
+          sudo apt install libmagickwand-dev
+          pip3 install Wand
+
+      - name: Merge Icons
+        run: |
+          python3 .github/scripts/release/mergeIcons.py
+
+
+      - name: Create ZIP archive
+        run: |
+          REPO_FOLDER=$(pwd)
+          TMP_FOLDER="/tmp/${{ env.ADDON_NAME }}"
+          
+          # Define the path to the ignore pattern file
+          ignore_file=".build-ignore"
+          
+          # Read and process ignore patterns into a single line
+          exclude_patterns=$(cat "$ignore_file" | awk '{print "--exclude " $0}' | tr '\n' ' ')
+          
+          # Make folder and copy content
+          mkdir -p $TMP_FOLDER
+          rsync -a --quiet $exclude_patterns "$REPO_FOLDER/" "$TMP_FOLDER/"
+          
+          # create zip
+          (cd /tmp && zip -r --quiet "$REPO_FOLDER/${{ env.ZIP_FULL_NAME }}" "${{ env.ADDON_NAME }}")
+
+      - name: Extract latest changelog entry
+        run: |
+          awk '/^## / { if (!found) { found=1; print; next } else { exit } } found' CHANGELOG.md > latest_changes.md
+          cat latest_changes.md
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          name: "${{ env.ADDON_VERSION }}"
+          commit: ${{ github.ref }}
+          tag: "${{ env.ADDON_VERSION }}"
+          artifacts: "${{ env.ZIP_FULL_NAME }}"
+          artifactContentType: application/zip
+          bodyFile: latest_changes.md
+          allowUpdates: true
+          makeLatest: true
+          prerelease: true
+          updateOnlyUnreleased: true
