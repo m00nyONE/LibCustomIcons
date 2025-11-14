@@ -8,10 +8,10 @@ from typing import Dict, Set, List, Tuple
 Folder = str
 ImageName = str
 Size = Tuple[int, int]
-CoordTuple = Tuple[int, int, int, int, int, int, int, int]
+CoordTuple = Tuple[int, int, int, int, int, int, int, int, int]
 
 ICONS_DIR = "icons"  # base directory for icon processing
-
+MAX_TEXTURES_PER_ATLAS = 255
 
 def get_folders() -> List[Folder]:
     """Return folder names derived from .lua filenames in icons dir."""
@@ -51,43 +51,47 @@ def group_by_size(images_per_folder: Dict[Folder, Set[ImageName]]) -> Dict[Size,
 
 
 def build_atlases(size_groups: Dict[Size, List[Tuple[Folder, ImageName]]]) -> Dict[Tuple[Folder, ImageName], CoordTuple]:
-    """Create atlases per size group and return coordinate map."""
+    """Create atlases per size group and return coordinate map, splitting if max count is reached."""
     coord_map: Dict[Tuple[Folder, ImageName], CoordTuple] = {}
     for (w, h), entries in size_groups.items():
-        count = len(entries)
-        if count == 0:
+        total_images = len(entries)
+        if total_images == 0:
             continue
-        columns = max(1, math.floor(math.sqrt(count)))
-        rows = math.ceil(count / columns)
-        total_w = columns * w - 1
-        total_h = rows * h - 1
-        print(f"Creating global atlas {w}x{h}: {columns}x{rows} (images: {count})")
-        with Image(background=None) as atlas:
-            for i, (folder, imageName) in enumerate(entries):
-                img_path = os.path.join(ICONS_DIR, folder, imageName)
-                try:
-                    with Image(filename=img_path) as item:
-                        item.border_color = 'none'
-                        item.matte_color = 'none'
-                        item.background_color = 'none'
-                        atlas.image_add(item)
-                except Exception as e:
-                    print(f"Error adding {img_path}: {e}")
-            atlas.background_color = "none"
-            atlas.montage(mode='concatenate', tile=f'{columns}x{rows}')
-            atlas.compression = "dxt5"
-            atlas.background_color = "none"
-            atlas.format = "dds"
-            out_name = os.path.join('compiled', f'merged_static_{w}x{h}.dds')
-            atlas.save(filename=out_name)
-        for i, (folder, imageName) in enumerate(entries):
-            column = i % columns
-            row = i // columns
-            left = column * w
-            right = left + w - 1
-            top = row * h
-            bottom = top + h - 1
-            coord_map[(folder, imageName)] = (w, h, left, right, top, bottom, total_w, total_h)
+        # Split entries into chunks
+        for chunk_idx, start in enumerate(range(0, total_images, MAX_TEXTURES_PER_ATLAS)):
+            chunk = entries[start:start + MAX_TEXTURES_PER_ATLAS]
+            count = len(chunk)
+            columns = max(1, math.floor(math.sqrt(count)))
+            rows = math.ceil(count / columns)
+            total_w = columns * w - 1
+            total_h = rows * h - 1
+            print(f"Creating atlas {w}x{h} chunk={chunk_idx+1}: {columns}x{rows} (images: {count})")
+            with Image(background=None) as atlas:
+                for i, (folder, imageName) in enumerate(chunk):
+                    img_path = os.path.join(ICONS_DIR, folder, imageName)
+                    try:
+                        with Image(filename=img_path) as item:
+                            item.border_color = 'none'
+                            item.matte_color = 'none'
+                            item.background_color = 'none'
+                            atlas.image_add(item)
+                    except Exception as e:
+                        print(f"Error adding {img_path}: {e}")
+                atlas.background_color = "none"
+                atlas.montage(mode='concatenate', tile=f'{columns}x{rows}')
+                atlas.compression = "dxt5"
+                atlas.background_color = "none"
+                atlas.format = "dds"
+                out_name = os.path.join('compiled', f'compiled_static_{w}x{h}_{chunk_idx+1}.dds')
+                atlas.save(filename=out_name)
+            for i, (folder, imageName) in enumerate(chunk):
+                column = i % columns
+                row = i // columns
+                left = column * w
+                right = left + w - 1
+                top = row * h
+                bottom = top + h - 1
+                coord_map[(folder, imageName)] = (w, h, left, right, top, bottom, total_w, total_h, chunk_idx+1)
     return coord_map
 
 
@@ -103,7 +107,7 @@ def generate_static_lines(coord_map: Dict[Tuple[Folder, ImageName], CoordTuple],
                 if not stripped.startswith('s["'):
                     continue
                 replaced_line = None
-                for (folder, imageName), (w, h, left, right, top, bottom, total_w, total_h) in coord_map.items():
+                for (folder, imageName), (w, h, left, right, top, bottom, total_w, total_h, chunk_idx) in coord_map.items():
                     needle = f'"LibCustomIcons/icons/{folder}/{imageName}"'
                     if needle not in line_no_nl:
                         continue
@@ -112,8 +116,9 @@ def generate_static_lines(coord_map: Dict[Tuple[Folder, ImageName], CoordTuple],
                     if not m:
                         continue
                     prefix = m.group(1).rstrip()
+                    atlas_file = f'compiled_static_{w}x{h}_{chunk_idx}.dds'
                     replaced_line = (
-                        f'{prefix} {{"LibCustomIcons/compiled/merged_static_{w}x{h}.dds", '
+                        f'{prefix} {{"LibCustomIcons/compiled/{atlas_file}", '
                         f'{left}, {right}, {top}, {bottom}, {total_w}, {total_h}}} -- {folder}/{imageName}'
                     )
                     break
