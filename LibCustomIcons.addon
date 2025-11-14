@@ -57,8 +57,8 @@ icons/vok.lua
 icons/sshogrin.lua
 
 ## icons - compiled
-icons/compiled/static.lua
-icons/compiled/animated.lua
+compiled/static.lua
+compiled/animated.lua
 
 ## nil
 nil.lua
