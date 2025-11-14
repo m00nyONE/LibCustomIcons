@@ -11,7 +11,7 @@ Size = Tuple[int, int]
 CoordTuple = Tuple[int, int, int, int, int, int, int, int, int]
 
 ICONS_DIR = "icons"  # base directory for icon processing
-MAX_TEXTURES_PER_ATLAS = 255
+MAX_TEXTURES_PER_ATLAS = 255  # max images per atlas - we should never use a power of 2 here because ESO does not like that. The textures get washed out because of a precision issue with floating numbers.
 
 def get_folders() -> List[Folder]:
     """Return folder names derived from .lua filenames in icons dir."""
