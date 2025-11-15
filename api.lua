@@ -47,9 +47,15 @@ function lib.GetStatic(username)
 end
 --- Retrieves the texturePath and animation parameters of the animated icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return table animation `{texturePath, width, height, fps}` or `nil` if no animated icon exists
+--- @return string|nil, number, number, number, number, number, number, number `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, fps` or `nil` if no animated icon exists
 function lib.GetAnimated(username)
-    return a[username]
+    local anim = a[username]
+    if anim[5] then
+        local texturePath, columns, rows, fps, left, right, top, bottom, width, height = unpack(anim)
+        return texturePath, left/width, right/width, top/height, bottom/height, columns, rows, fps
+    end
+
+    return anim[1], 0, 1, 0, 1, anim[2], anim[3], anim[4]
 end
 
 -- cached Clones of the internal tables for the GetAll* function. As these tables should always be readOnly and do nothing if edited, there is no need for them to be cloned each time they're requested
