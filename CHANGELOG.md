@@ -1,3 +1,11 @@
+## 2025.11.16
+- BREAKING CHANGE FOR DEVELOPERS:
+- removed GetIcon() - use GetStatic() or GetAnimated() instead
+- BREAKING CHANGES IN THE NEAR FUTURE:
+- GetStatic() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom` instead of only texturePath
+- GetAnimated() now returns `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, framerate` instead of a table.
+- If you are a developer, and you have problems migrating, message me on Discord :-) I'll help you out.
+
 ## 2025.08.16
 - merge even more contributions
 
