@@ -50,17 +50,16 @@ end
 --- @return string|nil, number, number, number, number, number, number, number `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, fps` or `nil` if no animated icon exists
 function lib.GetAnimated(username)
     -- TODO: uncomment when animated icons get merged textures
-    --local texturePath, left, right, top, bottom, width, height, columns, rows, fps = unpack(a[username])
-    --if texturePath == nil then
+    --local anim = a[username]
+    --if not anim then
     --    return nil, 0, 1, 0, 1, nil, nil, nil
     --end
-    --if #a[username] > 4 then -- compiled animation
+    --if #anim > 4 then -- compiled animation
+    --    local texturePath, columns, rows, fps, left, right, top, bottom, width, height = unpack(anim)
     --    return texturePath, left/width, right/width, top/height, bottom/height, columns, rows, fps
     --end
-    --columns = left
-    --rows = right
-    --fps = top
-    --return texturePath, 0, 1, 0, 1, columns, rows, fps
+    --
+    --return anim[1], 0, 1, 0, 1, anim[2], anim[3], anim[4]
 
     return a[username]
 end
