@@ -92,7 +92,7 @@ local function GetResults()
     end, 1000)
 end
 
-local function createTexture(iconNumber, userName, iconPath)
+local function createTexture(iconNumber, userName, iconPath, left, right, top, bottom)
     --local iconColumn = iconNumber % maxColumns
     --local iconRow = (zo_floor((iconSize * iconNumber) / SCREEN_WIDTH)) % maxRows
     local iconX = zo_floor(math.random(0, SCREEN_WIDTH - iconSize))
@@ -108,6 +108,7 @@ local function createTexture(iconNumber, userName, iconPath)
     icon:SetTextureReleaseOption(RELEASE_TEXTURE_AT_ZERO_REFERENCES)
     icon:SetHidden(false)
     icon:SetTexture(iconPath)
+    icon:SetTextureCoords(left, right, top, bottom)
     icon:SetDimensions(iconSize, iconSize)
 
     iconPool[iconNumber] = icon
@@ -118,12 +119,15 @@ local function checkTexture(iconNumber)
     local icon = iconPool[iconNumber]
     local isLoaded = icon:IsTextureLoaded()
 
+    iconPool[iconNumber]:SetTextureCoords(0, 1, 0, 1)
+
     if isLoaded then
         iconPool[iconNumber]:SetTexture("LibCustomIcons/assets/check.dds")
     else
         --table.insert(failedList, icon.userName)
         failedList[icon.userName] = icon.iconPath
         iconPool[iconNumber]:SetTexture("LibCustomIcons/assets/cross.dds")
+
     end
 end
 
@@ -150,7 +154,7 @@ local function integrityCheck()
         end
 
         local iconPath = userData[1]
-        createTexture(iconNumber, userName, iconPath)
+        createTexture(iconNumber, userName, iconPath, 0, 1, 0 ,1)
         iconNumber = iconNumber + 1
     end
 
@@ -160,11 +164,9 @@ local function integrityCheck()
             break
         end
 
-        local iconPath = s[userName]
-        if iconPath then
-            createTexture(iconNumber, userName, iconPath)
-            iconNumber = iconNumber + 1
-        end
+        local iconPath, left, right, top, bottom = lib.GetStatic(userName)
+        createTexture(iconNumber, userName, iconPath, left, right, top, bottom)
+        iconNumber = iconNumber + 1
     end
 
     d("loaded " .. iconNumber .. " icons")
