@@ -35,7 +35,9 @@ Have a look at the full documentation here: [Github Pages](https://m00nyone.gith
 
 
 ```lua
-local icon = LibCustomIcons.GetIcon("@accountName")
+local icon, coordsLeft, coordsRight, coordsTop, coordsBottom = LibCustomIcons.GetStatic("@accountName")
+textureControl:SetTexture(icon)
+textureControl:SetTextureCoords(coordsLeft, coordsRight, coordsTop, coordsBottom) -- do not forget todo that ;-)
 ```
 Documentation will be expanded as needed — feel free to open an issue if you need help integrating it.
 

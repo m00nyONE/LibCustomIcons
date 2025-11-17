@@ -37,7 +37,9 @@ If you're an addon developer and want to use [b]LibCustomIcons[/b]:
 Have a look at the full documentation here: [URL="https://m00nyone.github.io/LibCustomIcons/"]Github Pages[/URL]
 
 [code]
-local icon = LibCustomIcons.GetIcon("@accountName")
+local icon, coordsLeft, coordsRight, coordsTop, coordsBottom = LibCustomIcons.GetStatic("@accountName")
+textureControl:SetTexture(icon)
+textureControl:SetTextureCoords(coordsLeft, coordsRight, coordsTop, coordsBottom) -- do not forget todo that ;-)
 [/code]
 
 Documentation will be expanded as needed — feel free to open an issue if you need help integrating it.
