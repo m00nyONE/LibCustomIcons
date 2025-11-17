@@ -329,3 +329,4 @@ a["@supershdow"] = {"LibCustomIcons/icons/misc7/shadow.dds", 7, 3, 12}
 s["@LadyDesire"] = "LibCustomIcons/icons/misc7/LadyYousha.dds"
 a["@PartialEthos"] = {"LibCustomIcons/icons/misc7/PartialEthos_anim.dds", 24, 1, 20}
 a["@Scartha_Morin"] = {"LibCustomIcons/icons/misc7/scartha.dds", 5, 10, 10}
+s["@SandyDog"] = "LibCustomIcons/icons/misc7/sandy_dog.dds"
