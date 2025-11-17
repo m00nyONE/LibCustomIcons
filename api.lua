@@ -9,27 +9,37 @@ local a = lib.GetAnimatedTable()
 --[[ doc.lua begin ]]
 local currentFolder = "misc" .. tostring(os.date("%Y") - 2018)
 
+--- @alias texturePath string
+--- @alias textureCoordsLeft number
+--- @alias textureCoordsRight number
+--- @alias textureCoordsTop number
+--- @alias textureCoordsBottom number
+--- @alias columns number
+--- @alias rows number
+--- @alias fps number
+
+
 --- Retrieves the current folder where the icons are stored.
---- @return string folder The current folder name
+--- @return string folderName The current folder name where new icons should be put in
 function lib.GetCurrentFolder()
     return currentFolder
 end
 
 --- Checks whether a static icon exists for the given username.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return boolean hasStaticIcon `true` if a custom static icons exists, `false` otherwise.
+--- @return boolean hasStatic `true` if a custom static icons exists, `false` otherwise.
 function lib.HasStatic(username)
     return s[username] ~= nil
 end
 --- Checks whether an animated icon exists for the given username.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return boolean hasAnimatedIcon `true` if a custom animated icons exists, `false` otherwise.
+--- @return boolean hasAnimated `true` if a custom animated icons exists, `false` otherwise.
 function lib.HasAnimated(username)
     return a[username] ~= nil
 end
 --- Checks if a custom icon (either static or animated) exists for the given username.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return boolean hasStaticIcon `true` if a custom static icons exists, `false` otherwise.
+--- @return boolean hasIcon `true` if a custom static icons exists, `false` otherwise.
 function lib.HasIcon(username)
     return lib.HasStatic(username) or lib.HasAnimated(username)
 end
@@ -37,7 +47,7 @@ end
 
 --- Retrieves the texturePath of the static icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return string|nil, number, number, number, number texturePath or `nil` if no static icon exists, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom
+--- @return texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom or `nil` if no static icon exists
 function lib.GetStatic(username)
     if type(s[username]) == "table" then -- compiled icon
         local texture, left, right, top, bottom, width, height = unpack(s[username])
@@ -47,7 +57,7 @@ function lib.GetStatic(username)
 end
 --- Retrieves the texturePath and animation parameters of the animated icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return string|nil, number, number, number, number, number, number, number `texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, fps` or `nil` if no animated icon exists
+--- @return texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, fps or `nil` if no animated icon exists
 function lib.GetAnimated(username)
     -- TODO: uncomment when animated icons get merged textures
     --local anim = a[username]
