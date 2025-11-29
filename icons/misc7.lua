@@ -344,5 +344,5 @@ s["@Liftwithyaback"] = "LibCustomIcons/icons/misc7/Liftwithyaback.dds"
 s["@RandomUser123"] = "LibCustomIcons/icons/misc7/RandomUser123.dds"
 a["@RandomUser123"] = {"LibCustomIcons/icons/misc7/RandomUser123_anim.dds", 6, 8, 5}
 s["@Cragborne"] = "LibCustomIcons/icons/misc7/Cragborne.dds"
-a["@brainsnorkel"] = {"LibCustomIcons/icons/misc7/brainsnorkel_anim.dds", 5, 1, 14}
+s["@brainsnorkel"] = "LibCustomIcons/icons/misc7/brainsnorkel.dds"
 a["@stephnie"] = {"LibCustomIcons/icons/misc7/stephnie_anim.dds", 5, 10, 17}
