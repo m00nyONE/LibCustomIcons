@@ -349,3 +349,7 @@ a["@Dan_Prime"] = {"LibCustomIcons/icons/misc7/Dan_Prime_anim.dds", 10, 5, 10}
 s["@spinostern"] = "LibCustomIcons/icons/misc7/spino.dds"
 s["@brainsnorkel"] = "LibCustomIcons/icons/misc7/brainsnorkel.dds"
 a["@stephnie"] = {"LibCustomIcons/icons/misc7/stephnie_anim.dds", 5, 10, 16}
+s["@CaptainBuche"] = "LibCustomIcons/icons/misc7/CaptainBuche.dds"
+s["@liminal.exe"] = "LibCustomIcons/icons/misc7/liminalexe.dds"
+s["@PinkPinkPink.Pink"] = "LibCustomIcons/icons/misc7/PinkPinkPinkPink.dds"
+s["@creepp"] = "LibCustomIcons/icons/misc7/creepp.dds"
