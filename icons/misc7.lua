@@ -353,3 +353,4 @@ s["@CaptainBuche"] = "LibCustomIcons/icons/misc7/CaptainBuche.dds"
 s["@liminal.exe"] = "LibCustomIcons/icons/misc7/liminalexe.dds"
 s["@PinkPinkPink.Pink"] = "LibCustomIcons/icons/misc7/PinkPinkPinkPink.dds"
 s["@creepp"] = "LibCustomIcons/icons/misc7/creepp.dds"
+a["@ppflyet"] = {"LibCustomIcons/icons/misc7/ppflyet_anim.dds", 5, 4, 33}
