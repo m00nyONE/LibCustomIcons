@@ -448,6 +448,7 @@ s["@schmusie83"] = "LibCustomIcons/icons/misc5/schmusie83.dds"
 s["@HerzAusGold"] = "LibCustomIcons/icons/misc5/HerzAusGold.dds"
 s["@wonder_bunni"] = "LibCustomIcons/icons/misc5/wonder_bunni.dds"
 s["@Halcyon_Kismet"] = "LibCustomIcons/icons/misc5/Halcyon_Kismet.dds"
+a["@Halcyon_Kismet"] = {"LibCustomIcons/icons/misc5/Halcyon_Kismet_anim.dds", 6, 5, 11}
 s["@Fol.der"] = "LibCustomIcons/icons/misc5/folder.dds"
 s["@Cyberfox1998"] = "LibCustomIcons/icons/misc5/Cyberfox1998.dds"
 s["@Heartstab"] = "LibCustomIcons/icons/misc5/Heartstab.dds"
