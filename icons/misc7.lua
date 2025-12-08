@@ -357,3 +357,4 @@ a["@ppflyet"] = {"LibCustomIcons/icons/misc7/ppflyet_anim.dds", 5, 4, 33}
 s["@Adam_P"] = "LibCustomIcons/icons/misc7/Adam_P.dds"
 s["@diduka"] = "LibCustomIcons/icons/misc7/diduka.dds"
 a["@diduka"] = {"LibCustomIcons/icons/misc7/diduka_anim.dds", 19, 2, 24}
+s["@HighstoneUA"] = "LibCustomIcons/icons/misc7/HighstoneUA.dds"
