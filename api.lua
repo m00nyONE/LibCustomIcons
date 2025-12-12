@@ -47,7 +47,7 @@ end
 
 --- Retrieves the texturePath of the static icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom or `nil` if no static icon exists
+--- @return texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom
 function lib.GetStatic(username)
     if type(s[username]) == "table" then -- compiled icon
         local texture, left, right, top, bottom, width, height = unpack(s[username])
@@ -57,7 +57,7 @@ function lib.GetStatic(username)
 end
 --- Retrieves the texturePath and animation parameters of the animated icon for the user or nil if none exists.
 --- @param username string The player's account name (e.g., "@m00nyONE").
---- @return texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, fps or `nil` if no animated icon exists
+--- @return texturePath, textureCoordsLeft, textureCoordsRight, textureCoordsTop, textureCoordsBottom, columns, rows, fps
 function lib.GetAnimated(username)
     -- TODO: uncomment when animated icons get merged textures
     --local anim = a[username]
