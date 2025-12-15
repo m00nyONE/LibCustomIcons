@@ -100,3 +100,4 @@ s["@DrakeX4 "] = s["@SandroKilltDich"]
 --a["@Eco.212"] = a["@Eco_212"]
 s["@Eco.212"] = s["@Eco_212"]
 a["@Ermsi2"] = a["@Ermsi"]
+s["@YungGunz"] = "LibCustomIcons/icons/moo/YungGunz.dds"
