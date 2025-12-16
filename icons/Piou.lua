@@ -28,6 +28,7 @@ s["@titi60221"] = "LibCustomIcons/icons/Piou/Tit.dds"
 s["@Nheixx"] = "LibCustomIcons/icons/Piou/Nhx.dds"
 s["@JRM-MORT"] = "LibCustomIcons/icons/Piou/JRM.dds"
 s["@Tonifiantmusculaire"] = "LibCustomIcons/icons/Piou/PA.dds"
+s["@zSevou"] = "LibCustomIcons/icons/Piou/zSe.dds"
 a["@HyprA101"] = {"LibCustomIcons/icons/Piou/Hyp_anim.dds", 73, 1, 20}
 a["@BÆKI"] = {"LibCustomIcons/icons/Piou/Bak1_anim.dds", 34, 1, 10}
 a["@zqNqz"] = {"LibCustomIcons/icons/Piou/Nqz_anim.dds", 16, 1, 10}
