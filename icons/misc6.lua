@@ -159,6 +159,7 @@ s["@JacquelineS"] = "LibCustomIcons/icons/misc6/JacquelineS.dds"
 s["@Tochno"] = "LibCustomIcons/icons/misc6/Tochno.dds"
 s["@PzeuSs"] = "/esoui/art/icons/ability_templar_stendarr_aura.dds"
 s["@VoidHaze"] = "LibCustomIcons/icons/misc6/VoidHaze_2.dds"
+
 s["@AyumiChiyo"] = "LibCustomIcons/icons/misc6/AyumiChiyo.dds"
 s["@Elda_Reaper"] = "LibCustomIcons/icons/misc6/Elda_Reaper.dds"
 s["@iceteaqueen"] = "LibCustomIcons/icons/misc6/iceteaqueen.dds"
@@ -491,7 +492,7 @@ s["@Raspberry41"] = "LibCustomIcons/icons/misc6/Raspberry41.dds"
 s["@ChrisaSweetfoxy"] = "LibCustomIcons/icons/misc6/ChrisaSweetfoxy.dds"
 s["@I'm-A_Femboy"] = "LibCustomIcons/icons/misc6/Im-A_Femboy.dds"
 s["@haze068"] = "LibCustomIcons/icons/misc6/haze068.dds"
-a["@haze068"] = {"LibCustomIcons/icons/misc6/haze068_anim.dds", 24, 1, 15}
+a["@haze068"] = {"LibCustomIcons/icons/misc6/haze068_anim.dds", 24, 1, 10}
 s["@Dark.Anima"] = "LibCustomIcons/icons/misc6/Dark.Anima.dds"
 s["@twopups"] = "LibCustomIcons/icons/misc6/twopups.dds"
 s["@ToxicTenshii"] = "LibCustomIcons/icons/misc6/ToxicTenshii.dds"
