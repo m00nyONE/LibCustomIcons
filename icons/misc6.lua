@@ -159,7 +159,6 @@ s["@JacquelineS"] = "LibCustomIcons/icons/misc6/JacquelineS.dds"
 s["@Tochno"] = "LibCustomIcons/icons/misc6/Tochno.dds"
 s["@PzeuSs"] = "/esoui/art/icons/ability_templar_stendarr_aura.dds"
 s["@VoidHaze"] = "LibCustomIcons/icons/misc6/VoidHaze_2.dds"
-
 s["@AyumiChiyo"] = "LibCustomIcons/icons/misc6/AyumiChiyo.dds"
 s["@Elda_Reaper"] = "LibCustomIcons/icons/misc6/Elda_Reaper.dds"
 s["@iceteaqueen"] = "LibCustomIcons/icons/misc6/iceteaqueen.dds"
