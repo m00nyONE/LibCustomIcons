@@ -373,4 +373,6 @@ s["@superduperbeans"] = "LibCustomIcons/icons/misc7/superduperbeans.dds"
 s["@Perseus001"] = "LibCustomIcons/icons/misc7/Perseus001.dds"
 s["@Snow-Moon"] = "LibCustomIcons/icons/misc7/Snow-Moon.dds"
 s["@Ivcsi"] = "LibCustomIcons/icons/misc7/Ivcsi.dds"
+s["@PlayerFinity"] = "LibCustomIcons/icons/misc7/PlayerFinity.dds"
+s["@Darkpown"] = "LibCustomIcons/icons/misc7/Darkpown.dds"
 
