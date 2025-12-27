@@ -376,4 +376,7 @@ s["@Ivcsi"] = "LibCustomIcons/icons/misc7/Ivcsi.dds"
 s["@PlayerFinity"] = "LibCustomIcons/icons/misc7/PlayerFinity.dds"
 s["@Darkpown"] = "LibCustomIcons/icons/misc7/Darkpown.dds"
 s["@Valkinaz"] = "LibCustomIcons/icons/misc7/valkinaz.dds"
-
+s["@latteZZ"] = "LibCustomIcons/icons/misc7/latteZZ.dds"
+a["@Diocliate"] = {"LibCustomIcons/icons/misc7/Diocliate_anim.dds", 5, 3, 23}
+a["@gianlux96"] = {"LibCustomIcons/icons/misc7/gianlux96_anim.dds", 22, 1, 22}
+s["@Grim_Loki"] = "LibCustomIcons/icons/misc7/Grim_Loki.dds"
