@@ -386,3 +386,5 @@ s["@Upari"] = "LibCustomIcons/icons/misc7/Upari.dds"
 s["@Fitspatrik"] = "LibCustomIcons/icons/misc7/Fitspatrik.dds"
 s["@Springey"] = "LibCustomIcons/icons/misc7/Springey.dds"
 a["@kabellay"] = {"LibCustomIcons/icons/misc7/kabellay_anim.dds", 6, 1, 10}
+s["@Riidgy"] = "LibCustomIcons/icons/misc7/Riidgy.dds"
+s["@iamwezo"] = "LibCustomIcons/icons/misc7/iamwezo.dds"
