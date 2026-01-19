@@ -103,3 +103,4 @@ a["@Ermsi2"] = a["@Ermsi"]
 s["@YungGunz"] = "LibCustomIcons/icons/moo/YungGunz.dds"
 s["@Fjior"] = "LibCustomIcons/icons/moo/Fjior.dds"
 s["@Rappy_R50"] = "LibCustomIcons/icons/moo/Rappy_R50.dds"
+s["@MedicateMe"] = "LibCustomIcons/icons/moo/MedicateMe.dds"
