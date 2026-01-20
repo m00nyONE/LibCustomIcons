@@ -11,3 +11,4 @@ s["@Soul_Hagans"] = "LibCustomIcons/icons/misc8/Soul_Hagans.dds"
 s["@Ukmadorian"] = "LibCustomIcons/icons/misc8/Ukmadorian.dds"
 a["@Kuroko29012"] = {"LibCustomIcons/icons/misc8/Kuroko29012_anim.dds", 17, 1, 10}
 s["@Chio-Cill"] = "LibCustomIcons/icons/misc8/Chio_Cill.dds"
+s["@NecroCat_Crimson"] = "LibCustomIcons/icons/misc8/NecroCat_Crimson.dds"
