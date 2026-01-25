@@ -18,3 +18,5 @@ a["@krdntro"] = {"LibCustomIcons/icons/misc8/krdntro_anim.dds", 9, 1, 13}
 a["@AsieRubio"] = {"LibCustomIcons/icons/misc8/AsieRubio_anim.dds", 7, 5, 12}
 a["@itsTraka"] = {"LibCustomIcons/icons/misc8/itsTraka_anim.dds", 7, 5, 12}
 a["@ibelmontei"] = {"LibCustomIcons/icons/misc8/ibelmontei_anim.dds", 16, 1, 16}
+s["@Beaver720"] = "LibCustomIcons/icons/misc8/Beaver720.dds"
+a["@Beaver720"] = {"LibCustomIcons/icons/misc8/Beaver720_anim.dds", 10, 5, 25}
