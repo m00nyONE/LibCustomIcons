@@ -21,3 +21,4 @@ a["@ibelmontei"] = {"LibCustomIcons/icons/misc8/ibelmontei_anim.dds", 16, 1, 16}
 s["@Beaver720"] = "LibCustomIcons/icons/misc8/Beaver720.dds"
 a["@Beaver720"] = {"LibCustomIcons/icons/misc8/Beaver720_anim.dds", 10, 5, 25}
 s["@Freddingerz"] = "LibCustomIcons/icons/misc8/Freddingerz.dds"
+s["@Senfkorn"] = "LibCustomIcons/icons/misc8/Senfkorn.dds"
