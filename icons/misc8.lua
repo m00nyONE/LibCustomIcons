@@ -28,3 +28,4 @@ s["@NierielSootica"] = "LibCustomIcons/icons/misc8/NierielSootica.dds"
 a["@EviceratorN"] = {"LibCustomIcons/icons/misc8/EviceratorN_anim.dds", 12, 4, 20}
 a["@MatejSitar"] = {"LibCustomIcons/icons/misc8/MatejSitar_anim.dds", 12, 1, 25}
 s["@Admral_Snakbar"] = "LibCustomIcons/icons/misc8/Admral_Snakbar.dds"
+s["@Akira_tm"] = "LibCustomIcons/icons/misc8/Akira_tm.dds"
