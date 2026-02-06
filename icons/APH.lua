@@ -8,3 +8,4 @@ local a = lib.GetAnimatedTable()
 
 s["@APHONlC"] = "LibCustomIcons/icons/aph/APHONlC.dds"
 a["@APHONlC"] = {"LibCustomIcons/icons/aph/APHONlC_anim.dds", 3, 2, 3}
+s["@THAMER_AKATOSH"] = "LibCustomIcons/icons/aph/THAMER_AKATOSH.dds"
