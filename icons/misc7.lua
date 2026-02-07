@@ -28,6 +28,7 @@ s["@Prof_Flausch"] = "LibCustomIcons/icons/misc7/prof_flausch.dds"
 s["@Ravnic93"] = "LibCustomIcons/icons/misc7/ravnic93.dds"
 s["@Tomharken"] = "LibCustomIcons/icons/misc7/Tomharken.dds"
 s["@BULLAVAS"] = "LibCustomIcons/icons/misc7/BULLAVAS.dds"
+a["@BULLAVAS"] = {"LibCustomIcons/icons/misc7/BULLAVAS_anim.dds", 10, 5, 24}
 s["@LittleESO"] = "LibCustomIcons/icons/misc7/LittleESO.dds"
 s["@Boxis"] = "LibCustomIcons/icons/misc7/Boxis.dds"
 s["@Circuitous"] = "LibCustomIcons/icons/misc7/Circuitous.dds"
