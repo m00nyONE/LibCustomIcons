@@ -34,3 +34,4 @@ s["@MrSalv"] = "LibCustomIcons/icons/misc8/MrSalv.dds"
 s["@Arhwan"] = "LibCustomIcons/icons/misc8/Arhwan.dds"
 s["@Wusband"] = "LibCustomIcons/icons/misc8/Wusband.dds"
 a["@Wusband"] = {"LibCustomIcons/icons/misc8/Wusband_anim.dds", 6, 1, 10}
+s["@vladossk"] = "LibCustomIcons/icons/misc8/vladossk.dds"
