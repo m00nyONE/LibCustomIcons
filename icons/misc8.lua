@@ -37,3 +37,5 @@ a["@Wusband"] = {"LibCustomIcons/icons/misc8/Wusband_anim.dds", 6, 1, 10}
 s["@LilianHeart"] = "LibCustomIcons/icons/misc8/LilianHeart.dds"
 s["@Velarion"] = "LibCustomIcons/icons/misc8/Velarion.dds"
 s["@vladossk"] = "LibCustomIcons/icons/misc8/vladossk.dds"
+s["@Valerachich"] = "LibCustomIcons/icons/misc8/Valerachich.dds"
+s["@Witcher988"] = "LibCustomIcons/icons/misc8/Witcher988.dds"
