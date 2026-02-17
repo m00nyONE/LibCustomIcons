@@ -41,4 +41,5 @@ s["@Valerachich"] = "LibCustomIcons/icons/misc8/Valerachich.dds"
 s["@Witcher988"] = "LibCustomIcons/icons/misc8/Witcher988.dds"
 s["@gnomeimnot"] = "LibCustomIcons/icons/misc8/gnomeimnot.dds"
 a["@TrustInDust"] = {"LibCustomIcons/icons/misc8/TrustInDust_anim.dds", 23, 2, 23}
+s["@Fanatir"] = "LibCustomIcons/icons/misc8/Fanatir.dds"
 s["@kantal1st"] = "LibCustomIcons/icons/misc8/kantal1st.dds"
