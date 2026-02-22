@@ -48,3 +48,4 @@ s["@Barrrny"] = "LibCustomIcons/icons/misc8/barrrny.dds"
 a["@Nickx9"] = {"LibCustomIcons/icons/misc8/Nickx9_anim.dds", 11, 1, 4}
 a["@LeeWangcai"] = {"LibCustomIcons/icons/misc8/LeeWangcai_anim.dds", 15, 2, 8}
 a["@Saarz"] = {"LibCustomIcons/icons/misc8/Saarz_anim.dds", 16, 1, 9}
+a["@ShuguBota"] = {"LibCustomIcons/icons/misc8/ShuguBota_anim.dds", 20, 1, 25}
