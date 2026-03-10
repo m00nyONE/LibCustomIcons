@@ -51,3 +51,7 @@ a["@LeeWangcai"] = {"LibCustomIcons/icons/misc8/LeeWangcai_anim.dds", 15, 2, 8}
 a["@Saarz"] = {"LibCustomIcons/icons/misc8/Saarz_anim.dds", 16, 1, 9}
 a["@ShuguBota"] = {"LibCustomIcons/icons/misc8/ShuguBota_anim.dds", 20, 1, 25}
 a["@FIatIining"] = {"LibCustomIcons/icons/misc8/FIatIining_anim.dds", 45, 1, 30}
+s["@PyroFD3S"] = "LibCustomIcons/icons/misc8/PyroFD3S.dds"
+s["@rowenlacour"] = "LibCustomIcons/icons/misc8/rowenlacour.dds"
+s["@CJACKS25"] = "LibCustomIcons/icons/misc8/CJACKS25.dds"
+s["@TABANTHAA"] = "LibCustomIcons/icons/misc8/TABANTHAA.dds"
