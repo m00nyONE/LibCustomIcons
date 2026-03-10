@@ -476,6 +476,7 @@ s["@Tira23"] = "LibCustomIcons/icons/misc5/Tira23.dds"
 s["@adamisyou"] = "LibCustomIcons/icons/misc5/adamisyou.dds"
 s["@Aka1t0"] = "LibCustomIcons/icons/misc5/Aka1t0.dds"
 s["@Dawnwave"] = "LibCustomIcons/icons/misc5/Dawnwave.dds"
+a["@Dawnwave"] = {"LibCustomIcons/icons/misc5/Dawnwave_anim.dds", 47, 1, 12.5}
 s["@Cotikred-Kot"] = "LibCustomIcons/icons/misc5/Cotikred-Kot.dds"
 s["@Summer0430"] = "LibCustomIcons/icons/misc5/Summer0430.dds"
 s["@Stefano_Ricci"] = "LibCustomIcons/icons/misc5/Stefano_Ricci.dds"
