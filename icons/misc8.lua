@@ -55,6 +55,7 @@ s["@NicoleScarlet"] = "LibCustomIcons/icons/misc8/NicoleScarlet.dds"
 s["@DunklesLink"] = "LibCustomIcons/icons/misc8/DunklesLink.dds"
 a["@Sher-E"] = {"LibCustomIcons/icons/misc8/Sher-E_anim.dds", 17, 2, 12.5}
 a["@BEAR_406ttv"] = {"LibCustomIcons/icons/misc8/BEAR_406ttv_anim.dds", 10, 1, 10}
+s["@LuttyTheKiller"] = "LibCustomIcons/icons/misc8/LuttyTheKiller.dds"
 s["@Hanadila"] = "LibCustomIcons/icons/misc8/Hanadila.dds"
 a["@Hanadila"] = {"LibCustomIcons/icons/misc8/Hanadila_anim.dds", 10, 5, 20}
 a["@SomebodyNobody"] = {"LibCustomIcons/icons/misc8/SomebodyNobody_anim.dds", 19, 1, 12.5}
