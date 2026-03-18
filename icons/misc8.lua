@@ -68,3 +68,4 @@ a["@Jirachi_Ex"] = {"LibCustomIcons/icons/misc8/Jirachi_Ex_anim.dds", 10, 1, 5}
 s["@DestroyerESO"] = "LibCustomIcons/icons/misc8/DestroyerESO.dds"
 s["@LordG.36"] = "LibCustomIcons/icons/misc8/LordG36.dds"
 --a["@LordG.36"] = {"LibCustomIcons/icons/misc8/LordG36_anim.dds", 0, 0, 0}
+s["Clutter_Monk"] = "LibCustomIcons/icons/misc8/Clutter_Monk.dds"
