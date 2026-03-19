@@ -1,6 +1,5 @@
 -- SPDX-FileCopyrightText: 2026 m00nyONE
 -- SPDX-License-Identifier: Artistic-2.0
-
 local lib_name = "LibCustomIcons"
 local lib = _G[lib_name]
 local s = lib.GetStaticTable()
@@ -67,5 +66,7 @@ a["@SomebodyNobody"] = {"LibCustomIcons/icons/misc8/SomebodyNobody_anim.dds", 19
 a["@Jirachi_Ex"] = {"LibCustomIcons/icons/misc8/Jirachi_Ex_anim.dds", 10, 1, 5}
 s["@DestroyerESO"] = "LibCustomIcons/icons/misc8/DestroyerESO.dds"
 s["@LordG.36"] = "LibCustomIcons/icons/misc8/LordG36.dds"
---a["@LordG.36"] = {"LibCustomIcons/icons/misc8/LordG36_anim.dds", 0, 0, 0}
+-- a["@LordG.36"] = {"LibCustomIcons/icons/misc8/LordG36_anim.dds", 0, 0, 0}
 s["Clutter_Monk"] = "LibCustomIcons/icons/misc8/Clutter_Monk.dds"
+s["@RodMajors"] = "LibCustomIcons/icons/misc8/RodMajors.dds"
+s["@dye_qwerty"] = "LibCustomIcons/icons/misc8/dye_qwerty.dds"
