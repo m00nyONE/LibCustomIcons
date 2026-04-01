@@ -73,3 +73,6 @@ s["@dye_qwerty"] = "LibCustomIcons/icons/misc8/dye_qwerty.dds"
 s["@Xphalt"] = "LibCustomIcons/icons/misc8/Xphalt.dds"
 s["@SkinnyBE"] = "LibCustomIcons/icons/misc8/SkinnyBE.dds"
 s["@paradiys"] = "LibCustomIcons/icons/misc8/paradiys.dds"
+a["@Kaioshin14"] = {"LibCustomIcons/icons/misc8/Kaioshin14_anim.dds", 9, 1, 10}
+s["@CheshireNeko"] = "LibCustomIcons/icons/misc8/CheshireNeko.dds"
+a["@SLIMLAC2000"] = {"LibCustomIcons/icons/misc8/SLIMLAC2000_anim.dds", 11, 4, 33}

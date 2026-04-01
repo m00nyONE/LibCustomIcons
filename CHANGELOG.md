@@ -1,3 +1,6 @@
+## 2026.03.30
+- bump API version to 101049 & 101050
+
 ## 2025.11.16
 - BREAKING CHANGE FOR DEVELOPERS:
 - removed GetIcon() - use GetStatic() or GetAnimated() instead
