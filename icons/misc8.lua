@@ -79,3 +79,4 @@ a["@SLIMLAC2000"] = {"LibCustomIcons/icons/misc8/SLIMLAC2000_anim.dds", 11, 4, 3
 s["@Cheesecattac"] = "LibCustomIcons/icons/misc8/Cheesecattac.dds"
 s["@Taku3mi"] = "LibCustomIcons/icons/misc8/Taku3mi.dds"
 s["@SnowPrime"] = "LibCustomIcons/icons/misc8/SnowPrime.dds"
+s["@xkuroibara"] = "LibCustomIcons/icons/misc8/xkuroibara.dds"
