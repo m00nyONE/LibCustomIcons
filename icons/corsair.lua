@@ -28,3 +28,4 @@ s["@Uni_ESO"] = "LibCustomIcons/icons/corsair/uni_eso.dds"
 s["@Tinkaaberu"] = "LibCustomIcons/icons/corsair/Tinkaaberu.dds"
 s["@FightOne"] = "LibCustomIcons/icons/corsair/fightone.dds"
 a["@Halox48"] = {"LibCustomIcons/icons/corsair/Halox2_anim.dds", 48, 1, 10}
+s["@Zeerox"] = "LibCustomIcons/icons/corsair/zeerox.dds"
