@@ -53,6 +53,10 @@ Community contributions are welcome and appreciated!
 - Add your custom icon to the data file
 - Open a Pull Request with a short description
 - Make sure to keep icons appropriate and tasteful. Offensive or misleading content will not be accepted.
+- Each icon must be in the form of a .dds DX3 or DX5 texture file.
+- Accepted dimensions are 32x32 and 64x64 pixels.
+- Textures must be squared ( 1:1 aspect ratio ).
+- INFO: for testing custom icons for console, please use PC and switch to consoleFlow mode
 
 ## 🙏 Credits
 <a href="https://github.com/m00nyONE/LibCustomIcons/graphs/contributors">
