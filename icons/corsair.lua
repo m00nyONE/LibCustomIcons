@@ -10,6 +10,7 @@ s["@B7TxSpeed"] = "LibCustomIcons/icons/corsair/b7txspeed.dds"
 s["@Beynh"] = "LibCustomIcons/icons/corsair/beynh.dds"
 s["@DiabloESO"] = "LibCustomIcons/icons/corsair/DiabloESO_3.dds"
 s["@Diaphora666"] = "LibCustomIcons/icons/corsair/diaphora.dds"
+a["@Diaphora666"] = {"LibCustomIcons/icons/corsair/diaphora_anim.dds", 5, 5, 10}
 s["@Dinokunslaad"] = "LibCustomIcons/icons/corsair/dinokunslaad.dds"
 s["@Feiito"] = "LibCustomIcons/icons/corsair/feiito.dds"
 s["@Gabnich"] = "LibCustomIcons/icons/corsair/gabnich.dds"
