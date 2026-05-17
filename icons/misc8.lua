@@ -130,4 +130,5 @@ a["@ArhonFiresoul"] = {"LibCustomIcons/icons/misc8/ArhonFiresoul_anim.dds", 7, 7
 a["@GoridoTF2"] = {"LibCustomIcons/icons/misc8/GoridoTF2_anim.dds", 17, 2, 10}
 a["@MichaelOfPie"] = {"LibCustomIcons/icons/misc8/MichaelOfPie_anim.dds", 11, 3, 10}
 s["@MicahMXL"] = "LibCustomIcons/icons/misc8/MicahMXL.dds"
+s["@Valara-1"] = "LibCustomIcons/icons/misc8/Valara-1.dds"
 s["@Alatariel301183"] = "LibCustomIcons/icons/misc8/Alatariel301183.dds"
