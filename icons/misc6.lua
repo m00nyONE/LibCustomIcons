@@ -802,6 +802,7 @@ a["@e.lli"] = {"LibCustomIcons/icons/misc6/e.lli_anim.dds", 7, 3, 12.5}
 a["@GoatDevil"] = {"LibCustomIcons/icons/misc6/GoatDevil_anim.dds", 12, 1, 10}
 a["@Valkynne"] = {"LibCustomIcons/icons/misc6/Valkynne_anim.dds", 7, 7, 15}
 a["@FearShadows"] = {"LibCustomIcons/icons/misc6/FearShadows_anim_6.dds", 21, 2, 11}
+s["@FearShadows"] = "LibCustomIcons/icons/misc6/FearShadows.dds"
 a["@no1care"] = {"LibCustomIcons/icons/misc6/no1care_anim.dds", 5, 3, 15}
 a["@tktoostoned97"] = {"LibCustomIcons/icons/misc6/tktoostoned97_anim.dds", 7, 1, 10}
 a["@Sever0808"] = {"LibCustomIcons/icons/misc6/Sever0808_anim.dds", 10, 5, 25}
