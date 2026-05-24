@@ -148,3 +148,4 @@ s["@Mother.Bear"] = "LibCustomIcons/icons/misc8/Mother.Bear.dds"
 s["@perfectbao"] = "LibCustomIcons/icons/misc8/perfectbao.dds"
 s["@wangpm001"] = "LibCustomIcons/icons/misc8/wangpm001.dds"
 s["@TheMrPancake"] = "LibCustomIcons/icons/misc8/themrpancake.dds"
+a["@Kahlitho"] = a["catjam"]
