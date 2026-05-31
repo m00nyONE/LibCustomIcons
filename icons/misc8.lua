@@ -155,3 +155,5 @@ s["@TheMrPancake"] = "LibCustomIcons/icons/misc8/themrpancake.dds"
 a["@Kahlitho"] = a["catjam"]
 s["@jelhalla"] = "LibCustomIcons/icons/misc7/RadienESO.dds"
 s["@Feles"] = "LibCustomIcons/icons/misc8/feles.dds"
+s["@Elder_Turtle707"] = "LibCustomIcons/icons/misc8/Turtle_static_64.dds"
+a["@Elder_Turtle707"] = {"LibCustomIcons/icons/misc8/Turtle_blink_8x1_64.dds", 8, 1, 10}
