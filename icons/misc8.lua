@@ -163,4 +163,6 @@ a["@shedow2090"] = {"LibCustomIcons/icons/misc8/shedow2090_anim.dds", 24, 1, 10}
 s["@Mizael1644"] = "LibCustomIcons/icons/misc8/Mizael1644.dds"
 s["@Darkfire99"] = "LibCustomIcons/icons/misc8/Darkfire99.dds"
 s["@Aethluna"] = "LibCustomIcons/icons/misc8/Aethluna.dds"
+s["@gangialf3"] = "LibCustomIcons/icons/misc8/gangialf3.dds"
+s["@BlackArrow971"] = "LibCustomIcons/icons/misc8/BlackArrow971.dds"
 a["@loriensinsight"] = {"LibCustomIcons/icons/misc8/loriensinsight_anim.dds", 6, 1, 10}
