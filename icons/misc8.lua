@@ -175,3 +175,5 @@ s["@iKillElves4Septims"] = "LibCustomIcons/icons/misc8/iKillElves4Septims.dds"
 s["@iGinz"] = "LibCustomIcons/icons/misc8/iGinz.dds"
 a["@ObiJovi"] = {"LibCustomIcons/icons/misc8/ObiJovi_anim.dds", 5, 1, 5.5}
 a["@Kansxi"] = {"LibCustomIcons/icons/misc8/Kansxi_anim.dds", 47, 1, 14}
+s["@Notpure2"] = "LibCustomIcons/icons/misc8/Notpure2.dds"
+a["@Notpure2"] = {"LibCustomIcons/icons/misc8/Notpure2_anim.dds", 4, 7, 28}
