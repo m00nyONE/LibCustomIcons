@@ -1044,6 +1044,7 @@ a["@YERO_UwU"] = {"LibCustomIcons/icons/misc/yerouwu_anim.dds", 25, 1, 10}
 a["@MayaTheBarbarian"] = {"LibCustomIcons/icons/misc/mayathebarbarian_anim.dds", 33, 1, 9}
 a["@Taff_ESO"] = {"LibCustomIcons/icons/misc3/taffinder_anim.dds", 14, 1, 11}
 a["@fujisanndei"] = {"LibCustomIcons/icons/misc/fujisanndei_anim.dds", 33, 1, 10}
+a["@MiltinJoguin"] = {"LibCustomIcons/icons/misc/miltinjoguin_anim.dds", 10, 5, 15}
 a["@HAGAN83"] = a["@TKupstury"]
 a["@ScarletGlass"] = a["@TKupstury"]
 a["@xindong"] = a["@TKupstury"]
