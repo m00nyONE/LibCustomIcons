@@ -181,3 +181,5 @@ s["@bleeblue"] = "LibCustomIcons/icons/misc8/bleeblue.dds"
 s["@Fer_Torres"] = "LibCustomIcons/icons/misc8/Fer_Torres.dds"
 s["@Ozthos"] = "LibCustomIcons/icons/misc8/Ozthos.dds"
 s["@Obrivious"] = "LibCustomIcons/icons/misc8/Obrivious.dds"
+s["@raggsz"] = "LibCustomIcons/icons/misc8/raggsz.dds"
+a["@raggsz"] = {"LibCustomIcons/icons/misc8/raggsz_anim.dds", 7, 7, 20}
