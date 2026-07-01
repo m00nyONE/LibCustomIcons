@@ -322,7 +322,6 @@ s["@TheElusiveBread"] = "LibCustomIcons/icons/misc7/TheElusiveBread.dds"
 a["@TheElusiveBread"] = {"LibCustomIcons/icons/misc7/TheElusiveBread_anim.dds", 9, 2, 9}
 s["@M.Berlingot"] = "LibCustomIcons/icons/misc7/MBerlingot.dds"
 s["@Painkileuse"] = "LibCustomIcons/icons/misc7/Painkileuse.dds"
-a["@iiTzFlyy"] = {"LibCustomIcons/icons/misc7/iiTzFlyy_anim.dds", 13, 2, 13}
 a["@Kethmac420"] = {"LibCustomIcons/icons/misc7/Kethmac420_anim.dds", 7, 5, 12}
 a["@DeathMac420"] = {"LibCustomIcons/icons/misc7/DeathMac420_anim.dds", 4, 2, 6}
 a["@Kolakses"] = {"LibCustomIcons/icons/misc7/Kolakses_anim.dds", 7, 3, 15}
