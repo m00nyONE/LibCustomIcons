@@ -366,7 +366,6 @@ a["@Ophaniel741"] = {"LibCustomIcons/icons/misc7/Ophaniel741_anim.dds", 47, 1, 3
 a["@cn.rd"] = {"LibCustomIcons/icons/misc7/cnrd_anim.dds", 10, 3, 30}
 s["@Mia1119"] = "LibCustomIcons/icons/misc7/Mia1119.dds"
 s["@HßP"] = "LibCustomIcons/icons/misc7/hbp_2.dds"
-s["@Dovhesi"] = "LibCustomIcons/icons/misc7/Dovhesi.dds"
 a["@Simondu0"] = {"LibCustomIcons/icons/misc7/Simondu0_anim.dds", 6, 2, 13}
 s["@DJ_M1n3r"] = "LibCustomIcons/icons/misc7/DJ_M1n3r.dds"
 s["@melviniuspants"] = "LibCustomIcons/icons/misc7/melvinius.dds"
