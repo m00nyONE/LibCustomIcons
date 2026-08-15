@@ -208,3 +208,4 @@ a["@verthick"] = {"LibCustomIcons/icons/misc8/verthick_anim.dds", 31, 1, 14}
 s["@McFilthy"] = "LibCustomIcons/icons/misc8/McFilthy.dds"
 s["@VesaniaSeven"] = "LibCustomIcons/icons/misc8/VesaniaSeven.dds"
 a["@Triangel_mei"] = {"LibCustomIcons/icons/misc8/Triangel_mei_anim.dds", 8, 1, 10}
+s["@TransplantDude"] = "LibCustomIcons/icons/misc8/TransplantDude.dds"
