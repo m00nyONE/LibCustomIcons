@@ -224,3 +224,4 @@ s["@HondaForLife"] = "LibCustomIcons/icons/misc8/HondaForLife.dds"
 a["@HondaForLife"] = {"LibCustomIcons/icons/misc8/HondaForLife_anim.dds", 8, 4, 16}
 s["@Dr_Breuer"] = "LibCustomIcons/icons/misc8/Dr_Breuer.dds"
 a["@Dr_Breuer"] = {"LibCustomIcons/icons/misc8/Dr_Breuer_anim.dds", 8, 4, 16}
+s["@ESO.Luke"] = "LibCustomIcons/icons/misc8/ESOLuke.dds"
