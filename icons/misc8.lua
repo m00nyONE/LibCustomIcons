@@ -226,3 +226,5 @@ s["@Dr_Breuer"] = "LibCustomIcons/icons/misc8/Dr_Breuer.dds"
 a["@Dr_Breuer"] = {"LibCustomIcons/icons/misc8/Dr_Breuer_anim.dds", 8, 4, 16}
 s["@ESO.Luke"] = "LibCustomIcons/icons/misc8/ESOLuke.dds"
 s["@Qlakzo"] = "LibCustomIcons/icons/misc8/Qlakzo.dds"
+s["@nikotm"] = "LibCustomIcons/icons/misc8/nikotm_bear.dds"
+a["@nikotm"] = {"LibCustomIcons/icons/misc8/nikotm_32.dds", 8, 4, 16}
