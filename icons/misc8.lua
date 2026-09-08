@@ -228,3 +228,5 @@ s["@ESO.Luke"] = "LibCustomIcons/icons/misc8/ESOLuke.dds"
 s["@Qlakzo"] = "LibCustomIcons/icons/misc8/Qlakzo.dds"
 s["@nikotm"] = "LibCustomIcons/icons/misc8/nikotm_bear.dds"
 a["@nikotm"] = {"LibCustomIcons/icons/misc8/nikotm_32.dds", 8, 4, 16}
+s["@orengineko"] = "LibCustomIcons/icons/misc8/orengineko.dds"
+a["@orengineko"] = {"LibCustomIcons/icons/misc8/orengineko_anim.dds", 8, 4, 16}
