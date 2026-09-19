@@ -241,6 +241,7 @@ s["@Aveldalf"] = "LibCustomIcons/icons/misc3/countstarbucks.dds"
 s["@Kruglikw"] = "LibCustomIcons/icons/misc8/Kruglikw.dds"
 a["@Kruglikw"] = {"LibCustomIcons/icons/misc8/Kruglikw_anim.dds", 24, 1, 10}
 s["@zVidaa"] = "LibCustomIcons/icons/misc8/zVidaa.dds"
+a["@MoNsTeREaTzz"] = {"LibCustomIcons/icons/misc8/MoNsTeREaTzz_anim.dds", 9, 1, 10}
 a["@Shenorbyl"] = {"LibCustomIcons/icons/misc8/Shenorbyl_anim.dds", 25, 2, 33}
 a["@Bergruth"] = {"LibCustomIcons/icons/misc8/bergruth_anim.dds", 8, 4, 4}
 s["@crowexp"] = "LibCustomIcons/icons/misc8/crowexp.dds"
