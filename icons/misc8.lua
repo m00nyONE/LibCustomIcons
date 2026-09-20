@@ -245,3 +245,4 @@ a["@MoNsTeREaTzz"] = {"LibCustomIcons/icons/misc8/MoNsTeREaTzz_anim.dds", 9, 1, 
 a["@Shenorbyl"] = {"LibCustomIcons/icons/misc8/Shenorbyl_anim.dds", 25, 2, 33}
 a["@Bergruth"] = {"LibCustomIcons/icons/misc8/bergruth_anim.dds", 8, 4, 4}
 s["@crowexp"] = "LibCustomIcons/icons/misc8/crowexp.dds"
+s["@Ankhr"] = "LibCustomIcons/icons/misc8/Ankhr.dds"
