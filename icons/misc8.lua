@@ -258,6 +258,7 @@ s["@Diegokanon"] = "LibCustomIcons/icons/misc8/Diegokanon.dds"
 a["@Diegokanon"] = {"LibCustomIcons/icons/misc8/Diegokanon_anim.dds", 8, 1, 25}
 a["@xzerotwo"] = {"LibCustomIcons/icons/misc8/xzerotwo_anim.dds", 23, 1, 14}
 s["@KanashiReinkyatto"] = "LibCustomIcons/icons/misc8/KanashiReinkyatto.dds"
+a["@haidan"] = {"LibCustomIcons/icons/misc8/haidan_anim.dds", 8, 4, 12}
 s["@GusAri89"] = "LibCustomIcons/icons/misc8/GusAri89.dds"
 a["@GusAri89"] = {"LibCustomIcons/icons/misc8/GusAri89_anim.dds", 47, 1, 10}
 s["@Alfa_Nago"] = "LibCustomIcons/icons/misc8/Alfa_Nago.dds"
