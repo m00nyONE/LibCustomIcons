@@ -268,4 +268,5 @@ a["@Mal3v0Villa"] = {"LibCustomIcons/icons/misc8/Mal3v0Villa_anim.dds", 5, 1, 20
 s["@MrScrambled"] = "LibCustomIcons/icons/misc8/MrScrambled.dds"
 a["@MrScrambled"] = {"LibCustomIcons/icons/misc8/MrScrambled_anim.dds", 8, 4, 16}
 s["@collapse68"] = "LibCustomIcons/icons/misc8/collapse68.dds"
+a["@Mayhem713"] = {"LibCustomIcons/icons/misc8/Mayhem713_anim.dds", 9, 1, 50}
 a["@pAnduuhh"] = {"LibCustomIcons/icons/misc8/pAnduuhh_anim.dds", 5, 1, 10}
