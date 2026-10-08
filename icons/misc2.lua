@@ -110,6 +110,7 @@ s["@Eterlight"] = "LibCustomIcons/icons/misc2/eterlight.dds"
 s["@dovakin_auditore"] = "LibCustomIcons/icons/misc2/dovakin_auditore.dds"
 s["@Maruchim"] = "LibCustomIcons/icons/misc2/maruchim.dds"
 s["@jarograv"] = "LibCustomIcons/icons/misc2/jarograv.dds"
+s["@tanner.k"] = "LibCustomIcons/icons/misc2/tannerk.dds
 s["@Safeplace"] = "LibCustomIcons/icons/misc2/safeplace.dds"
 s["@thenamestom8"] = "LibCustomIcons/icons/misc2/thenamestom83.dds"
 s["@Valkyn_Val"] = "LibCustomIcons/icons/misc2/Valkyn_Val.dds"
