@@ -272,3 +272,4 @@ a["@Mayhem713"] = {"LibCustomIcons/icons/misc8/Mayhem713_anim.dds", 9, 1, 50}
 a["@pAnduuhh"] = {"LibCustomIcons/icons/misc8/pAnduuhh_anim.dds", 5, 1, 10}
 a["@djbnando"] = {"LibCustomIcons/icons/misc8/nandodance.dds", 4, 3, 10}
 a["@Xcrushb"] = {"LibCustomIcons/icons/misc8/Xcrushb_anim.dds", 8, 4, 15}
+s["@Winter0330"] = "LibCustomIcons/icons/misc8/Winter0330.dds"
