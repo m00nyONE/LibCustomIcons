@@ -273,5 +273,6 @@ a["@pAnduuhh"] = {"LibCustomIcons/icons/misc8/pAnduuhh_anim.dds", 5, 1, 10}
 a["@djbnando"] = {"LibCustomIcons/icons/misc8/nandodance.dds", 4, 3, 10}
 a["@Xcrushb"] = {"LibCustomIcons/icons/misc8/Xcrushb_anim.dds", 8, 4, 15}
 s["@Winter0330"] = "LibCustomIcons/icons/misc8/Winter0330.dds"
+s["@Mystiaa"] = "LibCustomIcons/icons/misc8/Mystiaa.dds"
 a["@AbiWoods"] = {"LibCustomIcons/icons/misc8/AbiWoods_anim.dds", 47, 1, 47}
 a["@Sunny-22"] = {"LibCustomIcons/icons/misc8/Sunny-22_anim.dds", 10, 5, 8}
