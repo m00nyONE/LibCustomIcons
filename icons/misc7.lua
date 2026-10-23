@@ -392,4 +392,4 @@ s["@iamwezo"] = "LibCustomIcons/icons/misc7/iamwezo.dds"
 s["@yy00"] = "LibCustomIcons/icons/misc7/yy00.dds"
 s["@Splandonge"] = "LibCustomIcons/icons/misc7/siinnd.dds"
 s["@lozdaddy"] = "LibCustomIcons/icons/misc7/lozdaddy.dds"
-
+s["@SinisterK1"] = "LibCustomIcons/icons/misc7/SinisterK1.dds"
