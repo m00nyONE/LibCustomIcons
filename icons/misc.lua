@@ -1052,3 +1052,4 @@ a["@Bradadona"] = a["@Tyreh"]
 a["@TheKaan"] = a["@MayaTheBarbarian"]
 a["@aleXanderSrc"] = a["@MayaTheBarbarian"]
 s["@Notagarami"] = s["@jeronimq"]
+s["@MikaMilka"] = "LibCustomIcons/icons/MikaMilka/MikaMilka_beer_icon_64_DXT5.dds"
