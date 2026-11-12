@@ -284,3 +284,4 @@ a["@LEXA_PANOS-1993"] = {"LibCustomIcons/icons/misc8/LEXA_PANOS-1993_anim.dds", 
 a["@SoloCatalyst"] = {"LibCustomIcons/icons/misc8/SoloCatalyst_anim.dds", 15, 3, 10}
 a["@pHnt0m"] = {"LibCustomIcons/icons/misc8/pHnt0m_anim.dds", 10, 4, 20}
 s["@ToffeGod"] = "LibCustomIcons/icons/misc8/ToffeGod.dds"
+s["@owliqx"] = "LibCustomIcons/icons/misc8/owliqx.dds"
