@@ -1051,5 +1051,5 @@ a["@xindong"] = a["@TKupstury"]
 a["@Bradadona"] = a["@Tyreh"]
 a["@TheKaan"] = a["@MayaTheBarbarian"]
 a["@aleXanderSrc"] = a["@MayaTheBarbarian"]
-s["@Notagarami"] = "LibCustomIcons/icons/misc8/Notagarami.dds"
+s["@Notagarami"] = "LibCustomIcons/icons/misc/Notagarami.dds"
 s["@MikaMilka"] = "LibCustomIcons/icons/MikaMilka/MikaMilka_beer_icon_64_DXT5.dds"
